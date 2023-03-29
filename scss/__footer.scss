@@ -1,0 +1,32 @@
+footer{
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      .footer-infor{
+            img{
+                  margin:15px 0;
+                  width: 150px;
+            }
+            .footer-infor-des{
+                  max-width: 340px;
+                  @include primary_text;
+            }
+            i{
+                  margin:15px 5px;
+                  color:red;
+            }
+            .copyright{
+                  margin:15px 0;
+                  color:#AFB5C0;
+            }
+      }
+      .label{
+            text-transform: capitalize;
+            font-size: 25px;
+            font-family: $family;
+            margin-bottom: 15px;
+      }
+      p{
+            @include primary_text;
+      }
+}

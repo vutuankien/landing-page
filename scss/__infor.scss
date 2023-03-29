@@ -1,0 +1,27 @@
+.infor{
+      display: flex;
+      justify-content: space-around;
+      margin: $marginsection1;
+      .infor-item{
+            display: flex;
+            gap: 45px;
+            img{
+                  position: absolute;
+                  transform: translateX(-70px);
+                  border-radius: 50%;
+                  width: 55px;
+                  height: 55px;
+            }
+            p{
+                  span{
+                        font-size: 25px;
+                        font-family: "rubik";
+                        line-height: 30px;
+                        font-weight: 500;
+                  }
+                  p{
+                        @include primary_text;
+                  }
+            }
+      }
+}

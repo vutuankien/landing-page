@@ -1,0 +1,73 @@
+.plan{
+      margin: 100px 0;
+      padding: 30px 0;
+      .plan-heading,.plan-des{
+            text-align: center;
+            margin:20px 0;
+      }
+      .plan-heading{
+            font-size: 35px;
+            font-weight: 500;
+            font-family: $family;
+            color: #0B132A;
+      }
+      .plan-des{
+            @include primary_text;
+            max-width: 555px;
+            margin: 0 auto;
+      }
+
+      .plan-section{
+            display: flex;
+            justify-content: space-around;
+            margin: $marginsection2;
+            gap:25px ;
+            .plan-item{
+                  border: 1px solid black;
+                  border-radius: 10px;
+                  width: 330px;
+                  padding:15px 0;
+                  .text-center{
+                        text-align: center;
+                        margin: $marginsection1;
+                  }
+                  .plan-check{
+                        text-align: justify;
+                        transform: translateX(70px);
+                        i{
+                              font-style: normal;
+                              line-height: $primary_line_height;
+                              @include primary_text;
+                        }
+                  }
+                  .plan-item-cost{
+                        @include primary_text;
+                        text-transform: capitalize;
+                        span{
+                              color: #000;
+                              font-weight: 700;
+                              font-size: large;
+                        }
+                  }
+                  .btn{
+                        // transform: translateX(110%);
+                        color:red;
+                        border: 1px solid red;
+                        border-radius: px;
+                        outline: none;
+                        background-color:transparent;
+                        font-family: $family;
+                        font-size: $primaryFont;
+                        font-weight: 700;
+                        padding: 5px 30px;
+                  }
+                  .btn:hover{
+                        background-color: #096bdb;
+                        color:#fff;
+                        font-weight: 400;
+                        border: none;
+                  }
+            }
+      }
+
+}

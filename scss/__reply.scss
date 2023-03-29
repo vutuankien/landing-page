@@ -1,0 +1,98 @@
+.comment{
+      margin:$marginsection1;
+      .rep-header,.rep-des{
+            text-align: center;
+            margin:10px 0;
+      }
+      .rep-header{
+            max-width: 447px;
+            margin: 0 auto;
+            line-height: 50px;
+            font-size: 35px;
+            font-family: $family;
+            color: #0B132A;
+      }
+      .rep-des{
+            @include primary_text;
+            max-width: 555px;
+            margin: 0 auto;
+            padding:5px 0;
+      }
+      .comment-section{
+            display: flex;
+            gap:40px;
+
+            .comment-item{
+                  width: 400px;
+                  height: auto;
+                  border:2px solid #ccc;
+                  padding:10px 15px;
+                  border-radius: 10px;
+                  margin-top: 50px;
+                  .avata{
+                        display: flex;
+                        margin:10px 0 15px 0;
+                        justify-content: space-between;
+                        padding: 5px 0;
+                        i{
+                              color:#FEA250;
+                              margin-left: 5px;
+                        }
+                  }
+                  .reply{
+                        @include primary_text;
+                        align-items: center;
+                        color: #0B132A;
+                  }
+            }
+            .comment-item:nth-child(1){
+                  border: 2px solid red;
+            }
+      }
+}
+
+.direction{
+      margin: $marginsection1;
+      display: flex;
+      justify-content: space-between;
+      .bi-right{
+            color:white;
+      }
+      .bi-left,.bi-right{
+            font-size: 25px;
+      }
+}
+.subcribe{
+      display: flex;
+      justify-content: space-around;
+      .subcribe-text{
+            .subcribe-text-heading{
+                  max-width: 371px;
+                  font-size:35px;
+                  font-family: $family;
+                  line-height: 45px;
+                  font-weight: 500;
+            }
+            .subcribe-text-des{
+                  @include primary_text;
+                  max-width: 410px;
+            }
+      }
+      .submit{
+            .subcribe-btn{
+                  padding:15px 45px;
+                  color:#fff;
+                  background-color: #d73131;
+                  border:none;
+                  border-radius: 10px;
+                  text-transform: capitalize;
+                  font-size: $primaryFont;
+                  font-family: $family;
+                  // box-shadow:0  5px 0 2px   rgba(245, 56, 56, 0.35);
+            }
+            .subcribe-btn:hover{
+                  color:rgb(244, 239, 239);
+                  background-color: #f50000;
+            }
+      }
+}

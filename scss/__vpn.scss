@@ -1,0 +1,20 @@
+.vpn-header{
+      margin: auto;
+      text-align: center;
+      width: 383.41px;
+      font-family: $family;
+      font-weight: 500;
+      font-size: 35px;
+      line-height: 50px;
+}
+.vpn-des{
+      text-align: center;
+      @include primary_text;
+      margin:30px auto;
+      width: 555px;
+      letter-spacing: 1px;
+      span{
+            color:#4F5665;
+            font-weight: 700;
+      }
+}

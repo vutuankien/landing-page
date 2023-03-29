@@ -1,0 +1,404 @@
+.main {
+  background-color: #FFF;
+  font-family: "rubik";
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 45px;
+  background-color: #FFF;
+  margin-bottom: 30px;
+}
+.header .wraper {
+  margin-right: 30px;
+}
+.header .wraper .header-item {
+  display: flex;
+}
+.header .wraper .header-item .header-list {
+  list-style: none;
+  line-height: 45px;
+}
+.header .wraper .header-item .header-list a {
+  display: block;
+  text-decoration: none;
+  color: #4F5665;
+  padding: 0 30px;
+  text-transform: capitalize;
+  font-family: "rubik";
+}
+.header .wraper .header-item .header-list a:nth-child(5) {
+  margin-left: 30px;
+}
+.header .wraper .header-item .header-list:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+.slider {
+  display: flex;
+  gap: 10px;
+  margin: 70px 0;
+}
+.slider .slider-text {
+  max-width: 555px;
+}
+.slider .slider-text .slider-text-main {
+  font-size: 50px;
+  color: #0B132A;
+  font-family: "rubik";
+  font-weight: 500;
+  line-height: 70px;
+}
+.slider .slider-text .slider-text-des {
+  font-size: 16px;
+  color: #4F5665;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+}
+.slider .start {
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: #F53838;
+  font-family: "rubik";
+  text-transform: capitalize;
+  color: #000;
+  box-shadow: 0 10px 5px rgba(190, 28, 28, 0.2);
+  font-size: 16px;
+}
+.slider .start:hover {
+  background-color: #000;
+  color: #F53838;
+}
+.slider .slider-logo {
+  margin-left: 30px;
+  width: 555px;
+}
+
+.infor {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+.infor .infor-item {
+  display: flex;
+  gap: 45px;
+}
+.infor .infor-item img {
+  position: absolute;
+  transform: translateX(-70px);
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+}
+.infor .infor-item p span {
+  font-size: 25px;
+  font-family: "rubik";
+  line-height: 30px;
+  font-weight: 500;
+}
+.infor .infor-item p p {
+  font-size: 16px;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.service {
+  margin: 70px 0;
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+.service .avata {
+  width: 500px;
+}
+.service .service-item {
+  max-height: 384px;
+}
+.service .service-item .service-item-heading {
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "rubik";
+  max-width: 384px;
+  line-height: 50px;
+}
+.service .service-item .service-item-des {
+  max-width: 384px;
+  font-size: 16px;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+}
+.service .service-item .service-list {
+  list-style: none;
+  font-size: 16px;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+  line-height: 50px;
+  text-transform: capitalize;
+}
+
+.plan {
+  margin: 100px 0;
+  padding: 30px 0;
+}
+.plan .plan-heading, .plan .plan-des {
+  text-align: center;
+  margin: 20px 0;
+}
+.plan .plan-heading {
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "rubik";
+  color: #0B132A;
+}
+.plan .plan-des {
+  font-size: 16px;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+  max-width: 555px;
+  margin: 0 auto;
+}
+.plan .plan-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 0;
+  gap: 25px;
+}
+.plan .plan-section .plan-item {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 330px;
+  padding: 15px 0;
+}
+.plan .plan-section .plan-item .text-center {
+  text-align: center;
+  margin: 50px 0;
+}
+.plan .plan-section .plan-item .plan-check {
+  text-align: justify;
+  transform: translateX(70px);
+}
+.plan .plan-section .plan-item .plan-check i {
+  font-style: normal;
+  line-height: 30px;
+  font-size: 16px;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+}
+.plan .plan-section .plan-item .plan-item-cost {
+  font-size: 16px;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+  text-transform: capitalize;
+}
+.plan .plan-section .plan-item .plan-item-cost span {
+  color: #000;
+  font-weight: 700;
+  font-size: large;
+}
+.plan .plan-section .plan-item .btn {
+  color: red;
+  border: 1px solid red;
+  border-radius: px;
+  outline: none;
+  background-color: transparent;
+  font-family: "rubik";
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 30px;
+}
+.plan .plan-section .plan-item .btn:hover {
+  background-color: #096bdb;
+  color: #fff;
+  font-weight: 400;
+  border: none;
+}
+
+.vpn-header {
+  margin: auto;
+  text-align: center;
+  width: 383.41px;
+  font-family: "rubik";
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.vpn-des {
+  text-align: center;
+  font-size: 16px;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+  margin: 30px auto;
+  width: 555px;
+  letter-spacing: 1px;
+}
+.vpn-des span {
+  color: #4F5665;
+  font-weight: 700;
+}
+
+.comment {
+  margin: 50px 0;
+}
+.comment .rep-header, .comment .rep-des {
+  text-align: center;
+  margin: 10px 0;
+}
+.comment .rep-header {
+  max-width: 447px;
+  margin: 0 auto;
+  line-height: 50px;
+  font-size: 35px;
+  font-family: "rubik";
+  color: #0B132A;
+}
+.comment .rep-des {
+  font-size: 16px;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+  max-width: 555px;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+.comment .comment-section {
+  display: flex;
+  gap: 40px;
+}
+.comment .comment-section .comment-item {
+  width: 400px;
+  height: auto;
+  border: 2px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.comment .comment-section .comment-item .avata {
+  display: flex;
+  margin: 10px 0 15px 0;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.comment .comment-section .comment-item .avata i {
+  color: #FEA250;
+  margin-left: 5px;
+}
+.comment .comment-section .comment-item .reply {
+  font-size: 16px;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+  align-items: center;
+  color: #0B132A;
+}
+.comment .comment-section .comment-item:nth-child(1) {
+  border: 2px solid red;
+}
+
+.direction {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.direction .bi-right {
+  color: white;
+}
+.direction .bi-left, .direction .bi-right {
+  font-size: 25px;
+}
+
+.subcribe {
+  display: flex;
+  justify-content: space-around;
+}
+.subcribe .subcribe-text .subcribe-text-heading {
+  max-width: 371px;
+  font-size: 35px;
+  font-family: "rubik";
+  line-height: 45px;
+  font-weight: 500;
+}
+.subcribe .subcribe-text .subcribe-text-des {
+  font-size: 16px;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+  max-width: 410px;
+}
+.subcribe .submit .subcribe-btn {
+  padding: 15px 45px;
+  color: #fff;
+  background-color: #d73131;
+  border: none;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: "rubik";
+}
+.subcribe .submit .subcribe-btn:hover {
+  color: rgb(244, 239, 239);
+  background-color: #f50000;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-infor img {
+  margin: 15px 0;
+  width: 150px;
+}
+footer .footer-infor .footer-infor-des {
+  max-width: 340px;
+  font-size: 16px;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+}
+footer .footer-infor i {
+  margin: 15px 5px;
+  color: red;
+}
+footer .footer-infor .copyright {
+  margin: 15px 0;
+  color: #AFB5C0;
+}
+footer .label {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-family: "rubik";
+  margin-bottom: 15px;
+}
+footer p {
+  font-size: 16px;
+  font-family: "rubik";
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+/*# sourceMappingURL=app.css.map */

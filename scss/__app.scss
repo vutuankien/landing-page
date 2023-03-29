@@ -1,0 +1,18 @@
+// @import "./_reset";
+@import "./_variables";
+
+
+.main{
+      background-color: $background;
+      font-family: $family;
+}
+
+@import "./_header";
+@import "./_mixin";
+@import "./_slider";
+@import "./_infor";
+@import "./_service";
+@import "./_plan";
+@import "./_vpn";
+@import "./_reply";
+@import "./_footer";

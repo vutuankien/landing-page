@@ -1,0 +1,29 @@
+.service{
+      margin: $marginsection2;
+      display: flex;
+      gap: 30px;
+      justify-content: space-evenly;
+      .avata{
+            width: 500px;
+      }
+      .service-item{
+            max-height: 384px;
+            .service-item-heading{
+                  font-size: 35px;
+                  font-weight: 500;
+                  font-family: $family;
+                  max-width: 384px;
+                  line-height: 50px;
+            }
+            .service-item-des{
+                  max-width: 384px;
+                  @include primary_text;
+            }
+            .service-list{
+                  list-style:none;
+                  @include primary_text;
+                  line-height: 50px;
+                  text-transform: capitalize;
+            }
+      }
+}

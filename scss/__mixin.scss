@@ -1,0 +1,14 @@
+@mixin primary_text{
+      font-size: $primaryFont;
+      font-family: $family;
+      font-weight: $primaryFontweight;
+      line-height: $primary_line_height;
+      color:$color;
+}
+
+@mixin primary_button{
+      border-radius: 50px;
+      border: 1px solid red;
+      background-color: #FFF;
+      text-align: center;
+}
